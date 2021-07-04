@@ -1,0 +1,343 @@
+
+
+
+@media only screen and (max-width: 1023px) {
+    .getAppoitmentForm {
+     
+        position: initial ;
+      
+    }
+  }
+@media only screen and (max-width: 992px) {
+    .toggleIcon {
+       
+        display: block;
+    }
+    .menuList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:var(--color-pest);
+        color: var(--color-white);
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        top: 100%;
+        z-index: 3333;
+        right:-100%;
+        padding-top: 33px;
+        transition:all .3s linear;
+        
+    }
+    .menuList li a {
+       color: var(--color-white);
+    }
+    ul.toggleMenu li{
+        transition:all .3s linear;
+    }
+    .showMobileMenu .menuList{
+        right:0px;
+    }
+    .showMobileMenu ul.toggleMenu li:nth-child(1) {
+        transform: rotate(45deg) translate(12px, 0px);
+    }
+    .showMobileMenu ul.toggleMenu li:nth-child(2){
+       display: none;
+    }
+    .showMobileMenu ul.toggleMenu li:nth-child(3) {
+        transform: rotate(-45deg) translate(4px, 9px);
+    }
+  
+  }
+@media only screen and (max-width: 800px) {
+    /* banner section */
+    #bannerSection {
+        padding: 100px 0px 100px 0px;
+   
+    }
+    #bannerSection .bannerHeadingtxt h1 {
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .getAppoitmentWrapper {
+        flex-direction: column;
+    }
+    .getAppoitmentDentalClicnic {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .getAppoitmentInnerContent {
+        margin-bottom: 60px;
+    }
+    .dentistSelectionWrapper {
+        grid-template-columns: 1fr;
+    }
+    .getAppoitmentForm {
+        max-width: 600px;
+        width: 100%;
+        position: initial;
+        margin: auto;
+      
+    }
+    .whyChoseDentist {
+        padding: 0px ;
+        margin-bottom: 20px;
+    }
+    .patientsImages {
+        margin-bottom: 20px;
+    }
+    .openningHours {
+     
+        margin-left: 0px;
+  
+    }
+    /* choose destination area */
+    #chooseDentistSection {
+        padding: 80px 0px;
+    }
+    /* professional area */
+    #ProfessionalArea {
+        padding: 30px 0px 30px 0px;
+    }
+    /* service area */
+    .serviceSection {
+        padding: 80px 0px;
+    }
+    .serviceInnerContent {
+        position: initial;
+    }
+    /* dedicated area */
+    .dedicatedAeaWrapper {
+        padding: 80px 0px 30px 0px;
+       
+    }
+    /* beast result area */
+    .bestResultContentVedio {
+        height: auto;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    /* footer area  */
+    .footer_top {
+        
+        grid-template-columns: 1fr 1fr;
+     
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    /* professional area */
+    .professionalOverlay {
+        padding: 10px;
+    }
+    .professinalWrapper {
+        max-width: 100%;
+    }
+    /* service area */
+    .serviceBox {
+       
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+    /* dedicated area */
+    
+    .dedicatedAeaWrapper {
+        grid-template-columns: 1fr;
+    }
+    #dedicatedArea::after {
+     position: initial;
+    
+    }
+    /* help area */
+    .helpWrapper {
+        
+        padding: 0px 20px;
+    }
+    #helpSection .helpContent h2 {
+        font-size: 30px;
+    }
+    .helpNumber p {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    /* footer area */
+    .footer_top {
+        padding: 0px 20px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    
+  }
+
+  @media only screen and (max-width: 576px) {
+      /* service box */
+    .serviceBox {
+        grid-template-columns: 1fr;
+    }
+    /* footer area */
+    .footer_top {
+        grid-template-columns: 1fr;
+    }
+    /* testimonial area */
+    .cardItem {
+        border-radius: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+      /* help section  */
+      .helpWrapper {
+        flex-direction: column;
+     
+    }
+    #helpSection .helpContent {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  }
+
+
+
+
+
+
+
+  @media only screen and (max-width: 400px) {
+    /* professinal area */
+    #ProfessionalArea:before {
+        transform: skewX(-56deg);
+        left: 0;
+        width: 100%;
+    }
+    #ProfessionalArea .getAppoitmentButton {
+        display: block;
+        margin-bottom: 12px;
+    }
+    #ProfessionalArea .contactBtn {
+        margin-left:0px;
+        display: block;
+    }
+  }
+
+  
+  @media only screen and (max-width: 320px) {
+      /* banner section */
+      #bannerSection {
+        padding: 50px 0px 50px 0px;
+    }
+    #bannerSection .bannerTitle p {
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+      #bannerSection .bannerHeadingtxt h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 500;
+    }
+    .commonBtn {
+        padding: 8px 18px 8px 18px;
+    }
+    /* get appoitment section */
+    .getAppoitmentInnerContent h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .getAppoitmentHeader h2 {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .formArea {
+        padding: 30px 23px 30px 20px;
+    }
+    .formArea input {
+        padding-left: 15px;
+        margin-bottom: 14px;
+        height: 42px;
+    }
+    /* chooseDentist Section  */
+    #chooseDentistSection {
+        padding: 40px 0px;
+    }
+    
+    #chooseDentistSection p, li {
+        font-size: 13px;
+        line-height: 35px;
+    }
+    .openningHours {
+        position: relative;
+        padding: 40px 35px 5px 25px;
+       
+    }
+    .openningHours h3{
+        font-size: 25px;
+      
+    }
+   
+    /* service section */
+    .serviceSection {
+        padding: 40px 0px;
+    }
+    .serviceHeading h2{
+        font-size: 25px;
+    }
+    .serviceItem {
+        padding: 15px 15px;
+    }
+    /* dedicated sectoion */
+    .dedicatedAeaWrapper {
+        padding: 40px 0px 30px 0px;
+    }
+    #dedicatedArea .dedicatedContentTxt p {
+        font-size: 14px;
+   
+    }
+    .dedicatedContentHeading h2{
+        font-size: 25px;
+    }
+    /* best result section */
+    #bestResultSection {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .bestResultContent h2{
+        font-size: 25px;
+    }
+    /* testimonial section */
+    #testimonialSection {
+        padding: 40px 0px;
+    }
+    .testimonialHeading h2{
+        font-size: 25px;
+    }
+    .cardItem {
+        background: #F0F4F7;
+        padding: 25px 15px 25px 15px;
+    }
+    #testimonialSection .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 30px;
+    }
+    /* help section */
+    .helpWrapper {
+        padding: 0px 0px;
+    }
+    #helpSection .helpContent h2 {
+        font-size: 25px;
+    }
+    .helpNumber p {
+        padding: 5px 13px;
+        font-size: 20px;
+    }
+    /* footer section */
+    .footer_section {
+
+        padding: 40px 0px 20px 0px;
+    }
+    .footer_bottom {
+        padding: 0px 0px 0px 0px;
+    }
+  }

@@ -1,0 +1,772 @@
+.add{
+    left:0;
+}
+
+
+/* header area css start*/
+#navSection {
+    width: 100%;
+    position: relative;
+}
+
+.navWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.brandLogo{
+    width: 205px ;
+    height: 45px;
+    padding: 0px 30px;
+}
+
+
+.navWrapper .brandLogo img{
+   width: 100%;
+   height:auto;
+}
+.menuList {
+    display: flex;
+    align-items: center;
+}
+.menuList li{
+    padding:15px ;
+}
+.menuList li a{
+    transition: .3s ease-out;
+}
+.menuList li a:hover{
+    color: var(--color-pest);
+}
+
+
+.toggleIcon {
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.toggleIcon .toggleMenu {
+    position: relative;
+    text-align: center;
+    line-height: 35px;
+}
+.toggleIcon .toggleMenu li {
+    top: 0px;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background:var(--color-pest);
+    margin-bottom: 4px;
+}
+
+
+/* =========================================
+========== BANNER AREA CSS START ===========
+============================================ */
+#bannerSection {
+    background-image: url(../images/backgraound.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px 300px 0px; 
+    position: relative;
+}
+#bannerSection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--color-pest);
+    opacity: 0.4;
+}
+.bannerSection{
+    position: relative;
+}
+.bannerContentWrapper {
+    max-width: 785px;
+    width: 100%;
+    z-index: 111;
+    position: relative;
+}
+.bannerTitle {
+    margin-bottom: 25px;
+}
+#bannerSection .bannerTitle p{
+    color: #fff;
+    margin: 0 !important;
+    line-height: 1;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: "Catamaran", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    z-index: 111;
+}
+#bannerSection .bannerHeadingtxt h1{
+    font-family: "Prompt", Sans-serif;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 6px rgb(0 0 0 / 13%);
+    margin-bottom: 20px;
+    z-index: 111;
+}
+.getAppoitmentButton{
+    background: var(--color-orange);
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 10px 17px 2px rgb(0 0 0 / 20%);
+    transition: all linear.3s;
+} 
+.getAppoitmentButton:hover{
+    background: var(--color-white);
+    color: var(--color-orange);
+    font-weight: 400;
+}
+/* =========================================
+========== BANNER AREA CSS END =============
+============================================ */
+
+
+
+/* =========================================
+===== WELCOME MEDUVID AREA CSS START ======
+============================================ */
+
+
+
+
+/* =========================================
+====== WELCOME MEDUVID AREA CSS END =======
+============================================ */
+#getAppoitmentSection{
+    padding: 50px 0px;
+    background: var(--color-bg-gray);
+}
+.getAppoitmentWrapper {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.getAppoitmentDentalClicnic {
+    max-width: 565px;
+    width: 100%;
+    margin-right: 20px;
+}
+.getAppoitmentForm {
+    max-width: 440px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: -232px;
+}
+.getAppoitmentInnerContent h5{
+    margin-bottom: 15px;
+}
+.getAppoitmentInnerContent h2{
+    margin-bottom: 17px;
+}
+#getAppoitmentSection .getAppoitmentInnerContent p {
+    color:var(--color-dark3);
+    font-size: 1.7rem;
+    margin-bottom: 17px;
+    line-height: 30px;
+}
+
+.getAppoitmentFormInner {
+    background: #fff;
+    text-align: center;
+}
+.getAppoitmentHeader h2 {
+    padding: 10px;
+    background: var(--color-bg-green);
+    color: #fff;
+    font-size: 30px;
+    padding: 25px 40px;
+}
+.formArea {
+    padding: 90px 40px 40px 40px;
+}
+.formArea input {
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.formArea input::placeholder{
+    color: #495057;
+    font-size: 1.6rem;
+}
+
+.formArea input:hover {
+    border: 1px solid #000;
+}
+.formArea input:focus {
+    border:1px solid var(--color-pest);
+    outline: none;
+}
+.inputBtn{
+    background: var(--color-bg-green);
+    box-shadow: 0px 10px 17px 2px rgb(0 0 0 / 20%);;
+}
+/* =========================================
+========== BANNER AREA CSS END =============
+============================================ */
+
+
+
+/* =========================================
+=== WHY CHOOSE MEDICAL DENTIST AREA START===
+============================================ */
+#chooseDentistSection {
+    padding: 100px 0px;
+    background: var(--color-bg-gray);
+}
+#chooseDentistSection p,li{
+    font-size: 17px;
+}
+#chooseDentistSection p{
+  line-height: 27px;
+}
+#chooseDentistSection .whyChoseDentist h2{
+    margin-bottom: 10px;
+}
+#chooseDentistSection .whyChoseDentist p{
+    margin-bottom:27px;
+    color: #000;
+}
+#chooseDentistSection .doctorFacilitiesList li{
+    line-height:40px;
+  }
+#chooseDentistSection .doctorFacilitiesList li i{
+    font-size: 22px ;
+    margin-right: 15px;
+  }
+.dentistSelectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.whyChoseDentist {
+    padding: 0px 10px 0px 0px;
+}
+.patientsImages img{
+    width: 100%;
+}
+.scheduleArea span{
+    font-size: 15px;
+    color: #fff;
+}
+.scheduleArea i {
+    font-size: 15px;
+    margin-right: 5px;
+    color: #fff;
+}
+.scheduleAreaInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+.openningHours {
+    padding: 70px 35px 35px 25px;
+    margin-left: 10px;
+    background: var(--color-bg-green);
+}
+.openningHours h3 {
+    font-family: "Prompt", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 25px;
+    text-align: center;
+  
+}
+
+.scheduleAreaInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0px;
+}
+.getAppoitmentBtn {
+    display: block;
+    background: #fff;
+    margin-top: 35px;
+    margin-bottom:45px;
+    padding: 15px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Prompt", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 0px 10px 17px 2px rgb(0 0 0 / 20%);
+}
+
+/* =========================================
+=== WHY CHOOSE MEDICAL DENTIST AREA END  ===
+============================================ */
+
+
+
+/* =========================================
+=== WHY CHOOSE MEDICAL DENTIST AREA END  ===
+============================================ */
+#ProfessionalArea{
+    background-image: url(../images/hospital.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 76px 10px 76px 20px;
+    position: relative;
+}
+#ProfessionalArea:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -173px;
+    width: 70%;
+    height: 100%;
+    background:#3FCE92;
+    transform: skewX(-26deg);
+   
+}
+#ProfessionalArea:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:#3FCE92;
+    opacity: .3;
+}
+#ProfessionalArea.ProfessionalSection h2,p{
+    color: #fff;
+}
+.professionalAreaInner {
+    position: relative;
+    z-index: 111;
+}
+.professinalWrapper{
+    max-width: 50%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.professinalWrapper h2{
+    margin-bottom: 14px;
+}
+.ProfessionalSection .professinalWrapper p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 50px;
+}
+.contactBtn{
+    background:#fff;
+    color: #000;
+    box-shadow: 0px 10px 17px 2px rgb(0 0 0 / 20%);
+    margin-left: 10px;
+}
+/* =========================================
+=== WHY CHOOSE MEDICAL DENTIST AREA END  ===
+============================================ */
+
+
+/* =========================================
+============= SERVICE AREA START  ==========
+============================================ */
+.serviceSection{
+    padding: 200px 0px;
+}
+.serviceWrapper {
+    position: relative;
+}
+.serviceInnerContent {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: -118px;
+}
+.serviceHeading {
+    text-align: center;
+    margin-bottom:45px;
+}
+.serviceHeading h2{
+    color: #232323;
+    font-weight: 600;
+}
+.serviceBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 14px;
+   
+}
+.serviceItem {
+    background: #fff;
+    padding: 40px 15px;
+    text-align: center;
+    box-shadow: 0px 2px 30px 0px #f5f4ff;
+}
+.serviceItem .serviceImg {
+    margin-bottom: 20px;
+}
+.serviceItem .serviceImg img{
+    width: 64px;
+   height: 64px;
+}
+.serviceContent .serviceTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.serviceSection p,span{
+    color: #000;
+    font-size: 17px;
+    line-height: 27px;
+ 
+}
+.serviceContent .serviceDescription{
+    color: #878787;
+    font-family: "Catamaran", Sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.learnMore {
+    width: 70%;
+    margin: auto;
+    cursor: pointer;
+}
+.learnMore:hover .lernTxt{
+    font-size: 14px;
+}
+.learnMore:hover .learnIcon{
+    font-size: 11px;
+}
+.learnMore .lernTxt{
+    font-weight: 300;
+    transition: .3s linear ease-in-out;
+}
+.learnMore .learnIcon{
+    color: #878787;
+    font-size: 13px;
+    margin-left: 7px;
+    transition: .3s linear ease-in-out;
+}
+
+/* =========================================
+=============== SERVICE AREA END ===========
+============================================ */
+
+
+
+/* =========================================
+=============== DEDICATED AREA START ===========
+============================================ */
+
+#dedicatedArea{
+    background:#F2F9FF;
+    position: relative;
+}
+#dedicatedArea::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width:38%;
+    height: 100%;
+    background: #3FCE92;
+
+}
+.dedicatedAeaWrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    padding: 250px 0px 115px 0px;
+    z-index: 1;
+}
+.dedicatedContentHeading{
+    margin-bottom: 20px;
+}
+.decatedContentImage {
+    z-index: 1;
+}
+.decatedContentImage img{
+    width: 100%;
+    height: auto;
+}
+#dedicatedArea .dedicatedContentTxt p{
+    color: #878787;
+    font-family: "Catamaran", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+/* ===========================================
+=============== DEDICATED AREA END ===========
+============================================ */
+
+
+/* ===========================================
+============= BEST RESULT AREA START =========
+============================================ */
+
+
+
+
+#bestResultSection{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.bestResultContent {
+    text-align: center;
+    margin-bottom: 38px;
+}
+.bestResultContent h2{
+    margin-bottom: 20px;
+}
+.bestResultContent p{
+    color: #878787; 
+    font-size: 17px;
+    font-weight: 400;
+}
+.bestResultContentVedio{
+    max-width: 773px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/* ===========================================
+============= BEST RESULT AREA END ==========
+============================================ */
+
+
+
+/* ===========================================
+============= TESTIMONIAL  AREA START ==========
+============================================ */
+
+#testimonialSection{
+    padding: 60px 0px;
+}
+.testimonialHeading {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.cardItem .cardContent p{
+    color: #878787; 
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.cardItem{
+    background:#F0F4F7;
+    padding: 70px 25px 60px 25px;
+   
+}
+.cardTitle{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.cardTitle .cardImg {
+    margin-right: 25px;
+}
+.cardTitle .cardImg img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.personName {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* carousel css*/
+
+#testimonialSection .owl-theme .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+#testimonialSection .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 70px;
+}
+#testimonialSection .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:var(--color-pest)
+}
+/* ===========================================
+============= TESTIMONIAL  AREA END ==========
+============================================ */
+
+
+/* ===========================================
+============= TESTIMONIAL  AREA END ==========
+============================================ */
+#helpSection{
+    background-image: url(../images/helpBg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:80px 0px;
+   position: relative;
+}
+#helpSection::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #62D5A4;
+    opacity: .9;
+}
+.helpWrapper {
+    position: relative;
+    z-index: 111;
+    display: flex;
+    align-items: center;
+}
+#helpSection .helpContent {
+    max-width: 50%;
+    width: 100%;
+}
+#helpSection .helpContent h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-family: "Prompt", Sans-serif;
+}
+.helpNumber {
+    flex-grow: 1;
+    text-align: center;
+}
+.helpNumber p {
+    display: inline-block;
+    border: 3px solid #fff;
+    padding: 14px 30px;
+    font-size: 25px;
+    background: transparent;
+    transform: scale(1);
+    transition:transform .3s  ease-in-out;
+    
+}
+.helpNumber p:hover{
+  transform: scale(.8);
+
+}
+
+/* ===========================================
+============= TESTIMONIAL  AREA END ==========
+============================================ */
+
+
+
+
+/* satrt footer css */
+.footer_section {
+    background: #F0F4F7;
+    padding: 70px 0px 40px 0px;
+}
+.footer_top {
+    display: grid;
+    grid-template-columns: 360px  1fr 1fr 290px;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin-bottom: 50px;
+}
+.footer_image {
+    max-width: 290px;
+    width: 100%;
+    height: auto;
+}
+.footer_title {
+    font-size: 18px;
+}
+.footer_section .indicator {
+    width: 100%;
+    height: 1px;
+    background: #DDDDDD;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.FooterSocialIcon ul li {
+    display: inline-block;
+  
+}
+.FooterSocialIcon ul li:not(:last-child) {
+    margin-right: 5px;
+
+}
+.FooterSocialIcon ul li a {
+    font-size: 15px;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    background: var(--color-bg-green);
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+    transform: scale(1);
+}
+.FooterSocialIcon ul li a:hover{
+    background: #818a91;
+    transform: scale(1.1) translateY(-5px);
+
+}
+.footer-link {
+    color: #212121;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+}
+.footer_wrapper h1 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Newsletter input{
+    display: block;
+    width: 100%;
+    padding: 12px 5px;
+    border: none;
+}
+.Newsletter input:focus {
+    outline: none;
+    border: 1px solid #dddde3;
+}
+.subscribeBtn {
+    background: var(--color-orange);
+    display: block;
+    padding: 12px 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_bottom {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    
+}
+.footer_bottom  p{
+    color: #818a91;
+    font-size: 17px;
+}
+

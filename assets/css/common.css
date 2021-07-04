@@ -1,0 +1,80 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+body {
+    background: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+h2{
+    font-size: 3.8rem;
+    font-weight: 700;
+    font-family: 'Prompt', sans-serif;
+    color: var(--color-dark1);
+}
+h3{
+    color: var(--color-dark1);
+    font-size: 2.22rem;
+    font-weight: 500;
+}
+h4{
+    color: var(--color-dark1);
+    font-size:1.5rem;
+    font-weight: 400;
+}
+h5{
+    color: var(--color-dark3);
+    font-family: "Catamaran", Sans-serif;
+    font-size:1.7rem;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Catamaran', sans-serif;
+    color: var(--color-dark1);
+    font-size: 1.8rem;
+}
+img{
+    display: inline-block;
+    /* width: 100%; */
+}
+
+.commonBtn{
+    
+        font-family: "Prompt", Sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 20px 30px 17px 30px;
+      
+    
+}

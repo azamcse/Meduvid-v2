@@ -1,0 +1,145 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+  <title>jQuery yBox: Advanced Modal Popup Plugin Examples</title>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/demo.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <style>
+    button { outline: none;}
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>jQuery yBox: Advanced Modal Popup Plugin Examples</h1>
+      <div id="carbon-block" style="margin:30px auto"></div>
+<div style="margin:30px auto"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+      <p>An animated, easy-to-use, feature-rich, jQuery modal popup plugin for any web content such text, iframes, images, galleries, and much more.</p>
+    </section>
+    <section>
+      <h3>Show The Popup On Page Load</h3>
+      <pre>       <code><span class="blue">&lt;script&gt;</span> yBox(<span class="grey">'WelCome'</span>); <span class="blue">&lt;/script&gt;</span></code>
+      </pre>
+    </section>
+    <section>
+      <h3>Multiple Popups</h3>
+      <a href="#link1" class="yBox">Click Me</a>
+      <pre>       <code><span class="blue">&lt;a</span> <span class="red">href</span>="<span class="purple">#link1</span>"<span class="blue"> <span class="red">class</span>="<span class="purple">yBox</span>"&gt; &lt;/a&gt;</span></code>
+      </pre>
+      <div style="display:none;">
+        <div id="link1">
+          <div class="inner" style="width:200px;height:100px">
+            Hello
+            <div style="padding:20px 0 0 0;">
+              <a href="#link2" class="yBox">Link 2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display:none;">
+        <div id="link2">Hello again :)</div>
+      </div>
+    </section>
+    <section class="iframeSection">
+      <h3>iFrame Popup</h3>
+      <a href="https://www.youtube.com/watch?v=rQrVwSPtPPs" class="yBox yBox_iframe" rel="nofollow" title="Click Here">
+        <img id="koko" src="https://img.youtube.com/vi/rQrVwSPtPPs/0.jpg" alt="" width="100" height="100" />
+      </a>
+      <pre>       <code><span class="blue">&lt;a</span> <span class="red">href</span>="<span class="purple">https://www.youtube.com...</span>" <span class="red">class</span>="<span class="purple">yBox yBox_iframe</span>"<span class="blue">&gt; &lt;/a&gt;</span></code>
+      </pre>
+    </section>
+    <section>
+      <h3>Additional Classes</h3>
+      <a href="#myLink" data-ybox-class="myYboxClass" class="yBox">Click Me</a>
+      <pre>       <code><span class="blue">&lt;a</span> <span class="red">href</span>="<span class="purple">#myLink</span>" <span class="red">data-ybox-class</span>="<span class="purple">myYboxClass</span>" <span class="red">class</span>="<span class="purple">yBox</span>"<span class="blue">&gt; &lt;/a&gt;</span></code>
+      </pre>
+
+      <div id="myLink" style="display:none;">
+        Hey - look at me!!
+      </div>
+    </section>
+    <section>
+      <h3>AJAX Popup</h3>
+      <a href="https://www.jqueryscript.net" class="yBox yBox_ajax">Click Me</a>
+      <pre>       <code><span class="blue">&lt;a</span> <span class="red">href</span>="<span class="purple">https://www.google.com</span>" <span class="red">class</span>="<span class="purple">yBox yBox_ajax</span>"<span class="blue">&gt; &lt;/a&gt;</span></code>
+      </pre>
+    </section>
+    <section>
+      <h3>Gallery Lightbox</h3>
+      <div class="group-wrap">
+        <a href="https://source.unsplash.com/WHWYBmtn3_0/1080x728" class="yBox" data-ybox-group="group1">
+          <img src="https://source.unsplash.com/WHWYBmtn3_0/1080x728" alt="" width="200" />
+        </a>
+        <a href="https://source.unsplash.com/IN5S22T9yaU/1080x728" class="yBox" data-ybox-group="group1">
+          <img src="https://source.unsplash.com/IN5S22T9yaU/1080x728" alt="" width="200" />
+        </a>
+        <a href="https://source.unsplash.com/IScgUAR7PqI/1080x728" class="yBox" data-ybox-group="group1">
+          <img src="https://source.unsplash.com/IScgUAR7PqI/1080x728" alt="" width="200" />
+        </a>
+      </div>
+      <pre>       <code><span class="blue">&lt;a</span> <span class="red">href</span>="<span class="purple">image.jpg</span>" <span class="red">data-ybox-group</span>="<span class="purple">group1</span>" <span class="red">class</span>="<span class="purple">yBox</span>"<span class="blue">&gt; &lt;/a&gt;</span></code>
+      </pre>
+      <div class="group-wrap">
+        <a href="https://source.unsplash.com/cIfLUEZYLVg/1080x728" class="yBox" data-ybox-group="group2">
+          <img src="https://source.unsplash.com/cIfLUEZYLVg/1080x728" alt="" width="200" />
+        </a>
+        <a href="https://source.unsplash.com/LYpkKLm2Us8/1080x728" class="yBox" data-ybox-group="group2">
+          <img src="https://source.unsplash.com/LYpkKLm2Us8/1080x728" alt="" width="200" />
+        </a>
+      </div>
+      <pre>       <code><span class="blue">&lt;a</span> <span class="red">href</span>="<span class="purple">image.jpg</span>" <span class="red">data-ybox-group</span>="<span class="purple">group2</span>" <span class="red">class</span>="<span class="purple">yBox</span>"<span class="blue">&gt; &lt;/a&gt;</span></code>
+      </pre>
+    </section>
+  </main>
+
+<link rel="stylesheet" href="dist/css/yBox.min.css" />
+<script type="text/javascript" src="dist/js/directive.min.js"></script>
+<script type="text/javascript" src="dist/js/yBox.min.js"></script>
+
+<script> yBox('Welcome!'); </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
