@@ -199,6 +199,9 @@
     margin-bottom: 20px;
     height: 50px;
 }
+.formArea a{
+    display: block;
+}
 .formArea input::placeholder{
     color: #495057;
     font-size: 1.6rem;
